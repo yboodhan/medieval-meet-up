@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Container } from 'reactstrap';
 
 const ProfilePicture = props => {
+
     return (
-        <div>ProfilePicture</div>
+        <Container>
+            <img className="img-fluid profile-picture" src={props.imageLink} />
+        </Container>
     )
 }
 

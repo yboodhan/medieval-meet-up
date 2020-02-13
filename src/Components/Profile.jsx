@@ -1,12 +1,14 @@
 import React from 'react';
 import { Button, Container, Col, Row } from 'reactstrap';
 
+import ProfilePicture from './ProfilePicture';
+
 const Profile = props => {
     return (
         <Container>
             <Row>
                 <Col sm="12" md={{ size: 6, offset: 3 }}>
-                    <img className="img-fluid" src="https://placekitten.com/300/300" />
+                    <ProfilePicture imageLink="https://placekitten.com/300/300"/>
                 </Col>
             </Row>
             <Row>
