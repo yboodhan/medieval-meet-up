@@ -17,3 +17,9 @@
   line-height: 1.5em;
   text-align: left;
 }
+
+.button-style {
+  border: none;
+  padding: 1em;g
+  font-size: 1.3em;
+}

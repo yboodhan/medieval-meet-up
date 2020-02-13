@@ -23,8 +23,8 @@ const Profile = props => {
                 </Col>
             </Row>
             <Row>
-                <Col sm="12" md={{ size: 6, offset: 3 }}>
-                    <MatchMsgButton />g
+                <Col sm={{ size: 8, offset: 2 }} md={{ size: 4, offset: 4 }}>
+                    <MatchMsgButton />
                 </Col>
             </Row>
         </Container>
