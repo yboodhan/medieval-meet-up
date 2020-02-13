@@ -10,16 +10,16 @@ const NavBottom = props => {
                     <Col>
                         <div className="nav-button-bar">
                             <div className="nav-button">
-                                <FontAwesomeIcon size="3x" icon={faHome} />
+                                <FontAwesomeIcon color="white" size="2x" icon={faHome} />
                             </div>
                             <div className="nav-button">
-                                <FontAwesomeIcon size="3x" icon={faCog} />
+                                <FontAwesomeIcon color="white" size="2x" icon={faCog} />
                             </div>
                             <div className="nav-button">
-                                <FontAwesomeIcon size="3x" icon={faHeart} />
+                                <FontAwesomeIcon color="white" size="2x" icon={faHeart} />
                             </div>
                             <div className="nav-button">
-                                <FontAwesomeIcon size="3x" icon={faEnvelope} />
+                                <FontAwesomeIcon color="white" size="2x" icon={faEnvelope} />
                             </div>
                         </div>
                     </Col>
