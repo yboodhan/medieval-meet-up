@@ -1,13 +1,4 @@
-import { darkgoldenrod } from "color-name";
-
 //BENS CHARACTER OBJECTS
-
-//Donkey
-
-//Gingy
-
-//Dragon
-
 users = [{
         name: 'Donkey',
         interest: 'Dragons',
