@@ -1,5 +1,10 @@
 .App {
+  height: 100vh;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-between;
 }
 
 .chat-header {
@@ -21,7 +26,7 @@
 .text-input {
   margin: 0;
 }
-
+// do this by classname
 p {
   margin: 0;
 }
@@ -29,4 +34,42 @@ p {
 .chat-header, .chat-container, .chat-input {
   border-radius: 10px;
   margin: 0;
+
+.profile-picture {
+  border-radius: 20%;
+  margin-top: 3em;
+}
+
+.user-name {
+  font-size: 2.5em;
+}
+
+.about-me {
+  padding-left: 2em;
+  padding-right: 2em;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.button-style {
+  border: none;
+  padding: 1em;
+  font-size: 1.3em;
+  margin: 1em;
+}
+
+.nav-bar {
+  min-width: 100vw;
+  background-color: red;
+}
+
+.nav-button-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 90vw;
+}
+
+.nav-button {
+  padding: 1em;
 }
