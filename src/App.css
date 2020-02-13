@@ -1,10 +1,15 @@
 .App {
+  height: 100vh;
   text-align: center;
-  padding-top: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-between;
 }
 
 .profile-picture {
   border-radius: 20%;
+  margin-top: 3em;
 }
 
 .user-name {
@@ -22,4 +27,19 @@
   border: none;
   padding: 1em;
   font-size: 1.3em;
+}
+
+.nav-bar {
+  border: 1px solid black;
+  min-width: 100vw;
+}
+
+.nav-button-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-button {
+  padding: 1em;
 }
