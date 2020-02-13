@@ -6,3 +6,14 @@
 .profile-picture {
   border-radius: 20%;
 }
+
+.user-name {
+  font-size: 2.5em;
+}
+
+.about-me {
+  padding-left: 2em;
+  padding-right: 2em;
+  line-height: 1.5em;
+  text-align: left;
+}
