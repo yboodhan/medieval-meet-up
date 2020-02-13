@@ -11,8 +11,6 @@ const Content = props => {
         <Router>
                 <Switch>
                     <Route exact path="/" component={Profile} />
-                    {/* <Route path="/dragon" component={Dragon} />
-                    <Route path="/farquad" component={Farquad} /> */}
                     <Route path="/chat" component={Chat} />
                     <Route path="*" component={Error} />
                 </Switch>
