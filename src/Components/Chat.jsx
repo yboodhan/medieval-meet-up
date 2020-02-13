@@ -26,7 +26,7 @@ const Chat = props => {
                     <div className="chat-input">
                         <p>This is the Chat input</p>
                         <input className="text-input" type="text" placeholder="Enter message here" onChange="" />
-                        <Button type="submit">Send</Button>
+                        <Button className="chat-button" type="submit">Send</Button>
                     </div>
                 </Col>
             </Row>

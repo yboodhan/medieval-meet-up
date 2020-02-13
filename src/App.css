@@ -9,8 +9,7 @@
 
 .chat-header {
   background-color: lightblue;
-  height: 8vh; 
-  color: black;
+  height: 8vh;
 }
 
 .chat-container {
@@ -23,17 +22,14 @@
   height: 5vh;
 }
 
-.text-input {
-  margin: 0;
-}
-// do this by classname
-p {
+.chat-header p, .chat-container p, .chat-input p {
   margin: 0;
 }
 
 .chat-header, .chat-container, .chat-input {
   border-radius: 10px;
   margin: 0;
+}
 
 .profile-picture {
   border-radius: 20%;
