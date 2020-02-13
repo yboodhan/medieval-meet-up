@@ -9,6 +9,7 @@ import { darkgoldenrod } from "color-name";
 //Dragon
 
 users = [{
+        id: 1,
         name: 'Donkey',
         interest: 'Dragons',
         about: 'donkeyabout',
@@ -18,9 +19,10 @@ users = [{
         picture: 'https://data.whicdn.com/images/130896373/original.jpg'
     },
     {
+        id: 2,
         name: 'Lord Farquaad',
         interest: 'Princesses',
-        about: 'Douchey Elitist etc',
+        about: ['6\'9"', 'SIGMA EPSILON THETA ΣΕΘ', 'NO CREATURES 🚫'],
         matches: 2,
         messages: 0,
         picture: [
@@ -30,25 +32,28 @@ users = [{
         
     },
     {
+        id: 3,
         name: 'Gingy',
-        interest: "Not Milk",
-        about: 'Hi! My name is ...',
+        interest: "my gumdrop button 💘",
+        about: ['Cookie Academy Class of 2003 🍪', 'Lemme pour some sugar on you 🍭'],
         matches: 0,
         messages: 0,
         picture: 'https://i.pinimg.com/originals/1d/cd/ac/1dcdac15889534510548cd4c5abefda8.jpg'
     },
     {
+        id: 4,
         name: 'Pinocchio',
         interest: 'Real boys',
-        about: 'PUN ABOUT NOSE LENGTH', //explicit????
+        about: ['REAL EYES', 'REALIZE', 'REAL LIES'], //explicit????
         matches: 4,
         messages: 20,
         picture: 'https://fiverr-res.cloudinary.com/t_main1,q_auto,f_auto/gigs/129052500/original/e978e4ecdb56607bcc8797591deed91732525da8.jpg'
     },
     {
+        id: 5,
         name: 'Dragon',
         interest: 'Treasure, Corpses, Bad Boys, NO ASSES',
-        about: 'Flame pun?? Roar??',
+        about: 'Looking for a new mans that handle all this 🔥🔥',
         matches: 29,
         messages: 20,
         picture: [
@@ -57,9 +62,10 @@ users = [{
         ]
     },
     {
+        id: 6,
         name: 'Fairy Godmother',
         interest: 'Love',
-        about: 'magic idk',
+        about: 'Just here to find the perfect princess for my son!',
         matches: 2,
         messages:19,
         picture: [
@@ -68,13 +74,13 @@ users = [{
         ],
     },
     {
+        id: 7,
         name: 'Prince Charming',
         interest: 'Older Women',
-        about: 'Cheesy pick up line',
+        about: ['Tht rightful king of Far Far Away 👑', 'Only God can judge thee 🙏', 'Hiking 🌲 Travel 🛩 ', 'Fair maidens hmu and thine shalt show you "happily ever after" 😉'],
         matches: 9999999,
         messages: 9999999,
         picture: 'https://vignette.wikia.nocookie.net/deadliestfiction/images/7/70/Prince_Charming.jpg/revision/latest/top-crop/width/360/height/450?cb=20190803002322'
     }
-    
-    ]
+]
 
