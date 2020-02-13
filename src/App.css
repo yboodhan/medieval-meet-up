@@ -82,3 +82,12 @@
   justify-content: center;
   height: 90vh;
 }
+
+.scroll-bar {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: 80vh;
+  border: 1px solid grey;
+  position: relative;
+  overflow-y: scroll;
+}
