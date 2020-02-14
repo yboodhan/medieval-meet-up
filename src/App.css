@@ -22,10 +22,21 @@
   margin: 0 auto;
 }
 
+.contains-chat {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
 .chat-container {
   /* background-color: lightgreen; */
+  width: 90vw;
   height: 76vh;
   font-size: 25px;
+  /* display: flex;
+  flex-wrap: wrap; */
+  justify-content: center;
+  position: relative;
+  overflow-y: scroll;
 }
 
 .chat-input {
@@ -83,24 +94,18 @@
 
 #user-chat {
   text-align: right;
-  /* display: flex;
-  align-items: center;
-  justify-content: right; */
-  width: 90vw;
   height: 10vh;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   background-color: #fff0dc;
-  /* background-image: url("https://www.nicepng.com/png/detail/4-46798_iphone-text-bubble-png-text-messaging.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  object-fit: fill; */
+  width: 90vw;
 }
 
 #response-chat {
   text-align: left;
   height: 10vh;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   background-color: #faf6f5;
+  width: 90vw;
 }
 
 .profile-picture {
