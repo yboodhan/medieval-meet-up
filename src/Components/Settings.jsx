@@ -21,9 +21,9 @@ const Settings = props => {
                         </Input>
                     </FormGroup>
                     <FormGroup>
-                        <Label className="label">Within:</Label>
+                        <Label className="label">Miles:</Label>
                         <Input className="input" type="number" name="distance" id="distance" placeholder="50">
-                        </Input> miles
+                        </Input>
                     </FormGroup>
                     <FormGroup>
                         <Label className="label">Age:</Label>
@@ -36,14 +36,14 @@ const Settings = props => {
                             <option>56+</option>
                         </Input>
                     </FormGroup>
-                    <br/>
-                    <FormGroup check>
-                        <Label className="label">Preferences:</Label>
-                    </FormGroup>
                 </Form>
             </div>
 
             <div className="preferences">
+                <FormGroup check>
+                    <Label className="label">Preferences:</Label>
+                </FormGroup>
+                <br/>
                 <FormGroup>
                     <Label check>
                         <Input className="input" type="checkbox"/> Humans 🤷🏽‍♀️
