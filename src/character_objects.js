@@ -2,18 +2,17 @@
 users = [{
         id: 1,
         name: 'Donkey',
-        interest: 'Dragons',
-        about: 'donkeyabout',
-        facts: 'Two can be as bad as one...',
+        interest: 'Ass',
+        about: ['New player on the block, looking for a sweet thang'],
         matches: 69,
         messages: 420,
-        picture: 'https://data.whicdn.com/images/130896373/original.jpg'
+        picture: ['https://data.whicdn.com/images/130896373/original.jpg']
     },
     {
         id: 2,
         name: 'Lord Farquaad',
         interest: 'Princesses',
-        about: ['6\'9"', 'SIGMA EPSILON THETA ΣΕΘ', 'NO CREATURES 🚫'],
+        about: ['6\'9"', 'SIGMA EPSILON THETA ΣΕΘ', 'NO MYTHICAL CREATURES 🚫'],
         matches: 2,
         messages: 0,
         picture: [
@@ -26,37 +25,37 @@ users = [{
         id: 3,
         name: 'Gingy',
         interest: "my gumdrop button 💘",
-        about: ['Cookie Academy Class of 2003 🍪', 'Lemme pour some sugar on you 🍭'],
+        about: ['cookie academy class of 2003 🍪', 'lemme pour some sugar on you 🍭'],
         matches: 0,
         messages: 0,
-        picture: 'https://i.pinimg.com/originals/1d/cd/ac/1dcdac15889534510548cd4c5abefda8.jpg'
+        picture: ['https://i.pinimg.com/originals/1d/cd/ac/1dcdac15889534510548cd4c5abefda8.jpg']
     },
     {
         id: 4,
         name: 'Pinocchio',
-        interest: 'Real boys',
-        about: ['REAL EYES', 'REALIZE', 'REAL LIES'], //explicit????
+        interest: 'an honest, real boy',
+        about: ['REAL EYES', 'REALIZE', 'REAL LIES'],
         matches: 4,
         messages: 20,
-        picture: 'https://fiverr-res.cloudinary.com/t_main1,q_auto,f_auto/gigs/129052500/original/e978e4ecdb56607bcc8797591deed91732525da8.jpg'
+        picture: ['https://fiverr-res.cloudinary.com/t_main1,q_auto,f_auto/gigs/129052500/original/e978e4ecdb56607bcc8797591deed91732525da8.jpg']
     },
     {
         id: 5,
         name: 'Dragon',
         interest: 'Treasure, Corpses, Bad Boys, NO ASSES',
-        about: 'Looking for a new mans that handle all this 🔥🔥',
+        about: ['Looking for a new mans that can handle all this 🔥🔥'],
         matches: 29,
         messages: 20,
         picture: [
         'https://vignette.wikia.nocookie.net/shrek/images/5/58/Un-wallpaper-del-drago-per-il-film-shrek-terzo-118322.jpg/revision/latest?cb=20160819000447',
-        'https://vignette.wikia.nocookie.net/shrek/images/f/f1/Shrek-disneyscreencaps.com-4387.jpg/revision/latest?cb=20160927172214'
+        'https://files.slack.com/files-pri/T0351JZQ0-FTZB36E7N/dragon_but_rly_pissed_at_donkey.png'
         ]
     },
     {
         id: 6,
-        name: 'Fairy Godmother',
-        interest: 'Love',
-        about: 'Just here to find the perfect princess for my son!',
+        name: '💸Fairy Godmother💸',
+        interest: 'Dominance',
+        about: ['NEED A NEW PARTNER IN CRIME TO TAKE OVER THE KINGDOM.', 'NOTHING OFF LIMITS: SCHEMING, BLACKMAIL, KIDNAPPING.👩‍👦', 'SERIOUS BUSINESS INQUIRIES ONLY', 'ADD ME ON SNAP - @GODMOMMY'],
         matches: 2,
         messages:19,
         picture: [
@@ -68,10 +67,10 @@ users = [{
         id: 7,
         name: 'Prince Charming',
         interest: 'Older Women',
-        about: ['Tht rightful king of Far Far Away 👑', 'Only God can judge thee 🙏', 'Hiking 🌲 Travel 🛩 ', 'Fair maidens hmu and thine shalt show you "happily ever after" 😉'],
+        about: ['Thy rightful king of Far Far Away 👑', 'Only God can judge thee 🙏', 'Hiking 🌲 Travel 🛩 ', 'Fair maidens hmu and thine shalt show you "happily ever after" 😉'],
         matches: 9999999,
         messages: 9999999,
-        picture: 'https://vignette.wikia.nocookie.net/deadliestfiction/images/7/70/Prince_Charming.jpg/revision/latest/top-crop/width/360/height/450?cb=20190803002322'
+        picture: ['https://vignette.wikia.nocookie.net/deadliestfiction/images/7/70/Prince_Charming.jpg/revision/latest/top-crop/width/360/height/450?cb=20190803002322']
     }
 ]
 
