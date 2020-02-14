@@ -11,7 +11,7 @@ const NavBottom = props => {
                     <Col>
                         <div className="nav-button-bar">
                             <div className="nav-button">
-                                <FontAwesomeIcon color="#668300" size="2x" icon={faUser} />
+                                <a href="/"><FontAwesomeIcon color="#668300" size="2x" icon={faUser} /></a>
                             </div>
                             <div className="nav-button">
                                 <FontAwesomeIcon color="#668300" size="2x" icon={faHeart} />
