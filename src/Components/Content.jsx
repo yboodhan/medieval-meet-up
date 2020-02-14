@@ -9,7 +9,6 @@ import Error from './Error'
 const Content = props => {
     return (
         <Router>
-            <div className="App">
                 <Switch>
                     <Route exact path="/" component={Profile} />
                     {/* <Route path="/dragon" component={Dragon} />
@@ -17,7 +16,6 @@ const Content = props => {
                     <Route path="/chat" component={Chat} />
                     <Route path="*" component={Error} />
                 </Switch>
-            </div>
         </Router>
     )
 }
