@@ -19,8 +19,13 @@
 }
 
 .chat-input {
-  background-color: lightgray;
+  background-image: url("https://i.imgur.com/aOGRW0N.png");
+  background-size: contain;
+  width: 100vw;
   height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .chat-header p, .chat-container p, .chat-input p {
@@ -30,6 +35,24 @@
 .chat-header, .chat-container, .chat-input {
   border-radius: 10px;
   margin: 0;
+}
+
+.chat-button {
+  color: rgba(0,0,0,0)
+}
+
+.chat-keyboard {
+  background-image: url("https://i.imgur.com/cTe85Nm.png");
+  background-size: contain;
+  height: 30vh;
+  width: 100vw;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+
+.text-input {
+  width: 70vw;
+  margin-left: 15vw;
 }
 
 .profile-picture {
