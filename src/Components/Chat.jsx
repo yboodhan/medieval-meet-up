@@ -3,6 +3,7 @@ import { Container, Row, Col, Button } from 'reactstrap'
 
 import Message from './NewMessage'
 import ChatInput from './ChatInput'
+import ChatHeader from './ChatHeader'
 
 
 const Chat = props => {
@@ -25,7 +26,8 @@ const Chat = props => {
             <Row>
                 <Col sm="12" md="({ size: 6, offset: 3 })">
                     <div className="chat-header">
-                        <p>Your chat with: Dragon</p>
+                        <ChatHeader />
+                        {/* <p>Your chat with: Dragon</p> */}
                     </div>
                 </Col>
             </Row>
