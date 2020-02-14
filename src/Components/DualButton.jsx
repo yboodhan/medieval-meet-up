@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import { Redirect } from 'react-router-dom';
 
-const MatchMsgButton = props => {
+const DualButton = props => {
     
     let [referRedirect, setReferRedirect] = useState(false)
 
-    const handleMatchMsg = () => {
-        setReferRedirect(true)
+    const switchToMsg = () => {
+        if (props.text == "Message Now!") {
+            setReferRedirect(true)
+        }
     }
 
     if (referRedirect) {
@@ -19,7 +21,7 @@ const MatchMsgButton = props => {
         <Container>
             <Row>
                 <Col>
-                    <button onClick={handleMatchMsg} className="button-style">
+                    <button onClick={switchToMsg} className="button-style">
                         {props.text}
                     </button>
                 </Col>
@@ -28,4 +30,4 @@ const MatchMsgButton = props => {
     )
 }
 
-export default MatchMsgButton
+export default DualButton
