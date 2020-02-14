@@ -7,6 +7,7 @@ import Error from './Error';
 import Profile from './Profile';
 import ViewAllMatches from './ViewAllMatches';
 import ViewMatchProfile from './ViewMatchProfile';
+import Settings from './Settings';
 
 const Content = props => {
     return (
@@ -16,6 +17,7 @@ const Content = props => {
                 <Route path="/chat" component={Chat} />
                 <Route path="/matches" component={ViewAllMatches} />
                 <Route path="/show" component={ViewMatchProfile} />
+                <Route path="/settings" component={Settings} />
                 <Route path="*" component={Error} />
             </Switch>
         </Router>

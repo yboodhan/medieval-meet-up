@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: space-between;
   font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(82, 80, 80, 0.863);
 }
 
 .chat-header {
@@ -43,6 +44,7 @@
   font-size: 2.5em;
   font-family: 'Fondamento', cursive;
   color: #668300;
+  font-weight: normal;
 }
 
 .about-me {
@@ -116,6 +118,11 @@
 }
 
 strong {
+  font-family: 'Fondamento', cursive;
+  color: #668300;
+}
+
+h1 {
   font-family: 'Fondamento', cursive;
   color: #668300;
 }
