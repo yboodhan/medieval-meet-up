@@ -5,12 +5,12 @@ import { faUser, faCog, faHeart, faComment } from '@fortawesome/free-solid-svg-i
 
 const Settings = props => {
     return (
-        <Container>
+        <Container className="settings-page">
             <h1>Filter Your Matches</h1>
             <Form>
                 <FormGroup>
-                    <Label>Location:</Label>
-                    <Input type="select" name="location" id="location">
+                    <Label className="label">Location:</Label>
+                    <Input className="input" type="select" name="location" id="location">
                         <option>Any</option>
                         <option>Pirate Island</option>
                         <option>Doloc</option>
