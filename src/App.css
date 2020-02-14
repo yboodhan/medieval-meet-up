@@ -9,9 +9,12 @@
   color: rgba(82, 80, 80, 0.863);
 }
 
-.chat-header {
+.chat-headerr {
   background-color: lightblue;
-  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Fondamento', cursive;
 }
 
 .chat-container {
@@ -37,6 +40,19 @@
   border-radius: 10px;
   margin: 0;
 }
+.chat-picture {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  /* margin-top: em; */
+  /* margin-bottom: 8vh; */
+  /* margin-left: 100px; */
+
+  padding: 0;
+}
+/* .chat-back {
+  margin-right: 100px;
+} */
 
 .chat-button {
   color: rgba(0,0,0,0)

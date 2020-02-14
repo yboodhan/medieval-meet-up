@@ -19,7 +19,6 @@ users = [{
             'https://vignette.wikia.nocookie.net/shrek/images/6/60/Farquad_l8.jpeg/revision/latest/scale-to-width-down/150?cb=20110419003358',
             'https://vignette.wikia.nocookie.net/shrek/images/f/f6/What_do_you_think.jpg/revision/latest?cb=20150308131141'
         ]
-        
     },
     {
         id: 3,
@@ -74,3 +73,30 @@ users = [{
     }
 ]
 
+newChars = [
+    {
+        name: 'Big Bad Wolf',
+        interest: ''
+        about: 'Like hairy guys? Looking for a Big Bad boy to huff and puff and blow your mind? Not all the guys are wolves, but this one is.'
+        picture: 'https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/the-big-bad-wolf-shrek-3.55.jpg'
+    }
+]
+
+//Dragon
+// 'Just seen my baby daddy on Ogr, can u show me where hes at?'
+//     'My clairevoyance fees start at 700 gold.'
+// 'Lmao fr?'
+//     'Unless, perhaps, you were to incinerate a certain Ogre in exchange?'
+// 'Now we talkin, u got OgrCash?'
+    
+// //Donkey
+// 'Really?'
+//     'Ayyy, you back in the lair? '
+// 'You\'re seriously disgusting'
+//     'Im just playin'
+//     'haha'
+//     'unless..? 👀'
+    
+// //Prince Charming
+// 'Hello?'
+//     'Hey hot stuff, wanna meet beautiful, gorgeous men like me in Far Far Away for free? Visit bit.ly/aKxsaLD'

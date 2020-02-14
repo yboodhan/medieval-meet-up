@@ -1,5 +1,6 @@
 import React, { useState, useEffect} from 'react'
 import { Container, Row, Col, Button } from 'reactstrap'
+import ChatHeader from './ChatHeader'
 
 const Chat = props => {
 
@@ -92,7 +93,8 @@ const Chat = props => {
             <Row>
                 <Col sm="12" md={{ size: 6, offset: 3 }} >
                     <div className="chat-header">
-                        <p>Your chat with: Dragon</p>
+                        <ChatHeader />
+                        {/* <p>Your chat with: Dragon</p> */}
                     </div>
                 </Col>
             </Row>
