@@ -1,6 +1,5 @@
 import React from 'react';
 import MatchProfile from './MatchProfile';
-import MatchMsgButton from './MatchMsgButton';
 
 let user = {
     id: 1,
