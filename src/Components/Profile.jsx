@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Col, Row } from 'reactstrap';
+import { Container, Col, Row } from 'reactstrap';
 
 import ProfilePicture from './ProfilePicture';
 import MatchMsgButton from './MatchMsgButton';
@@ -32,7 +32,7 @@ const Profile = props => {
             </Row>
             <Row>
                 <Col sm={{ size: 8, offset: 2 }} md={{ size: 4, offset: 4 }}>
-                    <MatchMsgButton />
+                    <MatchMsgButton text="Find Match!" link="/matches" />
                 </Col>
             </Row>
         </Container>

@@ -8,6 +8,7 @@ import Profile from './Profile';
 import ViewAllMatches from './ViewAllMatches';
 import ViewMatchProfile from './ViewMatchProfile';
 import Settings from './Settings';
+import MatchProfile from './MatchProfile';
 
 const Content = props => {
     return (

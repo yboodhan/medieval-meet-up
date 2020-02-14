@@ -6,21 +6,21 @@ const MatchMsgButton = props => {
     
     let [referRedirect, setReferRedirect] = useState(false)
 
-    const handleMatch = () => {
+    const handleMatchMsg = () => {
         setReferRedirect(true)
     }
 
     if (referRedirect) {
         return (
-            <Redirect to="/matches" />
+            <Redirect to={props.link} />
         )
     }
     return (
         <Container>
             <Row>
                 <Col>
-                    <button onClick={handleMatch} className="button-style">
-                        Find Love!
+                    <button onClick={handleMatchMsg} className="button-style">
+                        {props.text}
                     </button>
                 </Col>
             </Row>
