@@ -10,11 +10,12 @@
 }
 
 .chat-headerr {
-  background-color: lightblue;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Fondamento', cursive;
+  border-bottom: 3px solid #668300;
 }
 
 .chat-container {
@@ -73,7 +74,7 @@
   margin-left: 10vw;
   border-radius: 12px;
   height: 4vh;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #user-chat {
@@ -81,9 +82,10 @@
   /* display: flex;
   align-items: center;
   justify-content: right; */
+  width: 90vw;
   height: 10vh;
   border-radius: 10px;
-  background-color: lightgreen;
+  background-color: #fff0dc;
   /* background-image: url("https://www.nicepng.com/png/detail/4-46798_iphone-text-bubble-png-text-messaging.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -94,7 +96,7 @@
   text-align: left;
   height: 10vh;
   border-radius: 10px;
-  background-color: lightblue;
+  background-color: #faf6f5;
 }
 
 .profile-picture {
