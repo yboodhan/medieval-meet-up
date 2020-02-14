@@ -9,7 +9,7 @@ let users = [
     name: 'Big Bad Wolf',
     interest: 'Thighs, legs, arms',
     about: ['Like hairy guys? Looking for a Big Bad boy to huff and puff and blow your mind? Not all the guys are wolves, but this one is.'],
-    picture: ['https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/the-big-bad-wolf-shrek-3.55.jpg']
+    picture: ['https://i.pinimg.com/originals/1f/c0/58/1fc0584cfa9234edd54bce17f430c37b.jpg']
 },
 {
     name: 'Cyclops',

@@ -12,7 +12,7 @@ const Chat = props => {
     //     setChatHistory()
     // }, [])
 
-    
+    let hist
     let chats = chatHistory.map((chat, i) => {
         if (i%2 === 0) {
             return (
