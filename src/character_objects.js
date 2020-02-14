@@ -75,10 +75,21 @@ users = [{
 
 newChars = [
     {
+        id: 8,
         name: 'Big Bad Wolf',
-        interest: ''
-        about: 'Like hairy guys? Looking for a Big Bad boy to huff and puff and blow your mind? Not all the guys are wolves, but this one is.'
+        interest: 'Thighs, legs, arms',
+        about: ['Like hairy guys? Looking for a Big Bad boy to huff and puff and blow your mind? Not all the guys are wolves, but this one is.'],
         picture: 'https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/the-big-bad-wolf-shrek-3.55.jpg'
+    },
+    {
+        name: 'Cyclops',
+        interest: 'SMASHING',
+        picture: 'https://vignette.wikia.nocookie.net/shrek/images/4/44/Cyclops.jpg/revision/latest?cb=20100801232809'
+    },
+    {
+        name: 'Doris',
+        interest: 'Girls just wanna have fun 💁🏽‍♀️',
+        picture: 'https://pbs.twimg.com/media/D0XiE-lW0AAPid1.jpg'
     }
 ]
 

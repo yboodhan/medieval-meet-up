@@ -3,8 +3,9 @@ import { Container, Col, Row } from 'reactstrap';
 import { Redirect } from 'react-router-dom';
 
 import ProfilePicture from './ProfilePicture';
-// import MatchMsgButton from './MatchMsgButton';
-// import DualButton from './DualButton';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 const MatchProfile = props => {
 
@@ -13,6 +14,7 @@ const MatchProfile = props => {
     let [interest, setInterest] = useState('Looking for: ' + props.user.interest)
     let [nextButtonLink, setNextButtonLink] = useState(`/${parseInt(props.user.id) + 1}`)
     let [nextProfileLink, setNextProfileLink] = useState(`/${parseInt(props.user.id) + 1}`)
+    let [previousProfileLink, setPreviousProfileLink] = useState(`/${parseInt(props.user.id) - 1}`)
     let [matchChoice, setMatchChoice] = useState("")
     let [referRedirect, setReferRedirect] = useState(false)
 
@@ -38,12 +40,15 @@ const MatchProfile = props => {
             <Row>
                 <Col sm="12" md={{ size: 6, offset: 3 }}>
                     <ProfilePicture imageLink={props.user.picture[0]}/>
-                    <span>add arrow to switch</span>
                 </Col>
             </Row>
             <Row>
                 <Col sm="12" md={{ size: 6, offset: 3 }}>
-                    <h1 className="user-name">{props.user.name}</h1>
+                    <div className="nav-profiles">
+                        <a href={previousProfileLink}><FontAwesomeIcon color="#D5DE2E" size="3x" icon={faChevronLeft} /></a>
+                        <h1 className="user-name">{props.user.name}</h1>
+                        <a href={nextProfileLink}><FontAwesomeIcon color="#D5DE2E" size="3x" icon={faChevronRight} /></a>
+                    </div>
                 </Col>
             </Row>
             <Row>
@@ -57,7 +62,7 @@ const MatchProfile = props => {
             <Row>
                 <Col sm={{ size: 8, offset: 2 }} md={{ size: 4, offset: 4 }}>
                     <button className="button-style" onClick={makeMatch}>{buttonText}</button>
-                    <p><a href={nextProfileLink}>{matchChoice}</a></p>
+                    <p className="message-later"><a href={nextProfileLink}>{matchChoice}</a></p>
                 </Col>
             </Row>
         </Container>

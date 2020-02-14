@@ -3,6 +3,7 @@ import { Container, Col, Row } from 'reactstrap';
 
 import ProfilePicture from './ProfilePicture';
 import MatchMsgButton from './MatchMsgButton';
+import AppHeader from './AppHeader';
 
 const Profile = props => {
 
@@ -22,11 +23,7 @@ const Profile = props => {
                 <Col sm={{ size: 10, offset: 1 }} md={{ size: 6, offset: 3 }}>
                     <div className="about-me">
                         <p>Looking for a new mans that can handle all this 🔥🔥</p>
-                        <ul>
-                            <li>NO ASSES</li>
-                            <li>Treasure 💎</li>
-
-                        </ul>
+                        <p>NO ASSES, Treasure only 💎, Bad Boys, Corpses</p>
                     </div>
                 </Col>
             </Row>

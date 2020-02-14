@@ -15,14 +15,18 @@
   justify-content: space-between;
   align-items: center;
   font-family: 'Fondamento', cursive;
-  border-bottom: 3px solid #668300;
+  color: #668300;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+  width: 90vw;
+  height: 10vh;
+  margin: 0 auto;
 }
 
 .chat-container {
   /* background-color: lightgreen; */
   margin-left: 2em;
   margin-right: 2em;
-  height: 78vh;
+  height: 76vh;
   font-size: 25px;
 }
 
@@ -111,7 +115,7 @@
   padding-left: 2em;
   padding-right: 2em;
   line-height: 1.5em;
-  text-align: left;
+  /* text-align: left; */
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -217,4 +221,28 @@ h1 {
 .settings {
   text-align: left;
   margin: 2em;
+}
+
+.nav-profiles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.app-name {
+  background-color: #B0C400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Fondamento', cursive;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+  height: 10vh;
+  margin: 0 auto;
+  color: white;
+}
+
+.message-late {
+  color: grey;
 }

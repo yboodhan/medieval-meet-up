@@ -45,7 +45,6 @@ const Chat = props => {
         setChatHistory(hist)
     }
 
-    let hist
     const addReply = () => {
         if (chatHistory.length === 1) {
             chatHistory.push("...")
@@ -110,8 +109,6 @@ const Chat = props => {
     //     )
     // }
     
-    
-    
 
     return (
         <Container>
@@ -119,7 +116,6 @@ const Chat = props => {
                 <Col sm="12" md={{ size: 6, offset: 3 }} >
                     <div className="chat-header">
                         <ChatHeader />
-                        {/* <p>Your chat with: Dragon</p> */}
                     </div>
                 </Col>
             </Row>
