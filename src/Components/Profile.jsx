@@ -3,6 +3,7 @@ import { Container, Col, Row } from 'reactstrap';
 
 import ProfilePicture from './ProfilePicture';
 import MatchMsgButton from './MatchMsgButton';
+import AppHeader from './AppHeader';
 
 const Profile = props => {
 
