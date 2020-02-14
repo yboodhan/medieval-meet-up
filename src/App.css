@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: space-between;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .chat-header {
@@ -43,6 +44,8 @@
 
 .user-name {
   font-size: 2.5em;
+  font-family: 'Fondamento', cursive;
+  color: #668300;
 }
 
 .about-me {
@@ -50,13 +53,17 @@
   padding-right: 2em;
   line-height: 1.5em;
   text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .button-style {
   border: none;
-  padding: 1em;
-  font-size: 1.3em;
+  padding: 0.5em;
+  font-size: 2em;
   margin: 1em;
+  font-family: 'Fondamento', cursive;
+  color: white;
+  background-color: #B0C400;
 }
 
 .nav-bar {

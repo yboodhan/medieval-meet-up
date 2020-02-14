@@ -7,7 +7,7 @@ const MatchMsgButton = props => {
             <Row>
                 <Col>
                     <button className="button-style">
-                        FIND MATCH
+                        Find Love!
                     </button>
                 </Col>
             </Row>
