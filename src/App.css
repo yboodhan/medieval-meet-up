@@ -49,15 +49,16 @@
   align-items: center;
 } */
 
-.chat-input {
+/* .chat-input {
   display: flex;
-}
+  justify-content: space-between;
+} */
 
-.chat-header p, .chat-container p, .chat-input p {
+.chat-header p, .chat-container p {
   margin: 0;
 }
 
-.chat-header, .chat-container, .chat-input {
+.chat-header, .chat-container {
   margin: 0;
 }
 .chat-picture {
@@ -89,10 +90,11 @@
 }
 
 .text-input {
-  width: 78vw;
+  width: 60vw;
   border-radius: 12px;
   height: 4vh;
   font-size: 20px;
+  padding: 0em 0.2em 0em 0.2em;
 }
 
 #user-chat {

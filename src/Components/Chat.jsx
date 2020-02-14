@@ -128,23 +128,17 @@ const Chat = props => {
                         <div className="chat-container">
                             {chats}
                         </div>
-                    </div>
-                </Col>
-            </Row>
-            <Row>
-                <Col sm="12" md={{ size: 6, offset: 3 }}>
-                    <div className="chat-input contains-chat">
+                    <div>
                         <form>
                             <button><FontAwesomeIcon color="#B0C400" size="3x" icon={faPlus} /></button>
-                            <input autofocus autocomplete="off" className="text-input" type="text" placeholder="Enter new message" value={message} name="message" onChange={e => setMessage(e.target.value)} />
+                            <input autocomplete="off" className="text-input" type="text" placeholder="Enter new message" value={message} name="message" onChange={e => setMessage(e.target.value)} />
                             <button type="submit" onClick={addChat}><FontAwesomeIcon color="#B0C400" size="3x" icon={faArrowAltCircleUp} /></button>
                         </form>
+                    </div>
                     </div>
                 </Col>
             </Row>
             {/* {keyboard} */}
-
-            
         </Container>
     )
 }
