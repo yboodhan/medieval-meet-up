@@ -22,12 +22,21 @@
   margin: 0 auto;
 }
 
-.chat-container {
-  /* background-color: lightgreen; */
+.contains-chat {
   margin-left: 2em;
   margin-right: 2em;
+}
+
+.chat-container {
+  /* background-color: lightgreen; */
+  width: 90vw;
   height: 76vh;
   font-size: 25px;
+  /* display: flex;
+  flex-wrap: wrap; */
+  justify-content: center;
+  position: relative;
+  overflow-y: scroll;
 }
 
 .chat-input {
@@ -88,6 +97,7 @@
   height: 10vh;
   /* border-radius: 10px; */
   background-color: #fff0dc;
+  width: 90vw;
 }
 
 #response-chat {
@@ -95,6 +105,7 @@
   height: 10vh;
   /* border-radius: 10px; */
   background-color: #faf6f5;
+  width: 90vw;
 }
 
 .profile-picture {
