@@ -61,7 +61,8 @@
 
 .nav-bar {
   min-width: 100vw;
-  background-color: red;
+  background-color: white;
+  border-top: 1px solid rgba(128, 128, 128, 0.178);
 }
 
 .nav-button-bar {
@@ -85,9 +86,26 @@
 
 .scroll-bar {
   margin-top: 3em;
-  margin-bottom: 3em;
-  height: 80vh;
-  border: 1px solid grey;
+  height: 85vh;
   position: relative;
   overflow-y: scroll;
+  width: 80vw;
+}
+
+.scroll-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+  margin: 1em;
+}
+
+.tag {
+  margin-top: 0.5em;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.tag-about {
+  display: block;
 }
