@@ -10,8 +10,7 @@
 
 .chat-header {
   background-color: lightblue;
-  height: 8vh; 
-  color: black;
+  height: 8vh;
 }
 
 .chat-container {
@@ -24,13 +23,9 @@
   height: 5vh;
 }
 
-.text-input {
+.chat-header p, .chat-container p, .chat-input p {
   margin: 0;
 }
-
-/* p {
-  margin: 0;
-} */
 
 .chat-header, .chat-container, .chat-input {
   border-radius: 10px;
