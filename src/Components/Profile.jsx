@@ -32,7 +32,7 @@ const Profile = props => {
             </Row>
             <Row>
                 <Col sm={{ size: 8, offset: 2 }} md={{ size: 4, offset: 4 }}>
-                    <MatchMsgButton text="Find Match!" link="/matches" />
+                    <MatchMsgButton text="Find Match!" link="/1" />
                 </Col>
             </Row>
         </Container>
