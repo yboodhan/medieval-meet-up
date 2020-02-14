@@ -39,7 +39,7 @@
   overflow-y: scroll;
 }
 
-.chat-input {
+/* .chat-input {
   background-image: url("https://i.imgur.com/aOGRW0N.png");
   background-size: contain;
   width: 100vw;
@@ -47,6 +47,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+.chat-input {
+  display: flex;
 }
 
 .chat-header p, .chat-container p, .chat-input p {
@@ -86,7 +90,6 @@
 
 .text-input {
   width: 78vw;
-  margin-left: 10vw;
   border-radius: 12px;
   height: 4vh;
   font-size: 20px;

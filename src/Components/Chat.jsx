@@ -2,6 +2,9 @@ import React, { useState, useEffect} from 'react'
 import { Container, Row, Col, Button } from 'reactstrap'
 import ChatHeader from './ChatHeader'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleUp, faPlus } from '@fortawesome/free-solid-svg-icons';
+
 const Chat = props => {
 
     let [message, setMessage] = useState('')
@@ -130,10 +133,11 @@ const Chat = props => {
             </Row>
             <Row>
                 <Col sm="12" md={{ size: 6, offset: 3 }}>
-                    <div className="chat-input">
+                    <div className="chat-input contains-chat">
                         <form>
-                            <input autocomplete="off" className="text-input" type="text" placeholder="Enter new message" value={message} name="message" onChange={e => setMessage(e.target.value)} />
-                            <button className="chat-button" type="submit" onClick={addChat}>Send</button>
+                            <button><FontAwesomeIcon color="#B0C400" size="3x" icon={faPlus} /></button>
+                            <input autofocus autocomplete="off" className="text-input" type="text" placeholder="Enter new message" value={message} name="message" onChange={e => setMessage(e.target.value)} />
+                            <button type="submit" onClick={addChat}><FontAwesomeIcon color="#B0C400" size="3x" icon={faArrowAltCircleUp} /></button>
                         </form>
                     </div>
                 </Col>
