@@ -121,8 +121,10 @@ const Chat = props => {
             </Row>
             <Row>
                 <Col sm="12" md={{ size: 6, offset: 3 }}>
-                    <div className="chat-container">
-                        {chats}
+                    <div className="contains-chat">
+                        <div className="chat-container">
+                            {chats}
+                        </div>
                     </div>
                 </Col>
             </Row>
