@@ -78,7 +78,7 @@ newChars = [
         id: 8,
         name: 'Big Bad Wolf',
         interest: 'Thighs, legs, arms',
-        about: 'Like hairy guys? Looking for a Big Bad boy to huff and puff and blow your mind? Not all the guys are wolves, but this one is.',
+        about: ['Like hairy guys? Looking for a Big Bad boy to huff and puff and blow your mind? Not all the guys are wolves, but this one is.'],
         picture: 'https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/the-big-bad-wolf-shrek-3.55.jpg'
     },
     {

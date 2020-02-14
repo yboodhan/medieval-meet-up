@@ -3,7 +3,25 @@ import { Container, Col, Row } from 'reactstrap';
 
 import ProfileTag from './ProfileTag';
 
-let users = [{
+let users = [
+{
+    id: 7,
+    name: 'Big Bad Wolf',
+    interest: 'Thighs, legs, arms',
+    about: ['Like hairy guys? Looking for a Big Bad boy to huff and puff and blow your mind? Not all the guys are wolves, but this one is.'],
+    picture: ['https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/the-big-bad-wolf-shrek-3.55.jpg']
+},
+{
+    name: 'Cyclops',
+    interest: 'SMASHING',
+    picture: ['https://vignette.wikia.nocookie.net/shrek/images/4/44/Cyclops.jpg/revision/latest?cb=20100801232809']
+},
+{
+    name: 'Doris',
+    interest: 'Girls just wanna have fun 💁🏽‍♀️',
+    picture: ['https://pbs.twimg.com/media/D0XiE-lW0AAPid1.jpg']
+},
+{
     id: 1,
     name: 'Donkey',
     interest: 'Ass',
@@ -42,7 +60,7 @@ let users = [{
     messages: 20,
     picture: ['https://fiverr-res.cloudinary.com/t_main1,q_auto,f_auto/gigs/129052500/original/e978e4ecdb56607bcc8797591deed91732525da8.jpg']
 },
-{
+{ 
     id: 5,
     name: '💸Fairy Godmother💸',
     interest: 'Dominance',

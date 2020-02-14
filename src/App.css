@@ -120,7 +120,7 @@
   padding-left: 2em;
   padding-right: 2em;
   line-height: 1.5em;
-  text-align: left;
+  /* text-align: left; */
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -246,4 +246,8 @@ h1 {
   height: 10vh;
   margin: 0 auto;
   color: white;
+}
+
+.message-late {
+  color: grey;
 }

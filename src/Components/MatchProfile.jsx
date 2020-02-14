@@ -62,7 +62,7 @@ const MatchProfile = props => {
             <Row>
                 <Col sm={{ size: 8, offset: 2 }} md={{ size: 4, offset: 4 }}>
                     <button className="button-style" onClick={makeMatch}>{buttonText}</button>
-                    <p><a href={nextProfileLink}>{matchChoice}</a></p>
+                    <p className="message-later"><a href={nextProfileLink}>{matchChoice}</a></p>
                 </Col>
             </Row>
         </Container>
