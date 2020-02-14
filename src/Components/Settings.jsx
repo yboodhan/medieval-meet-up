@@ -22,7 +22,7 @@ const Settings = props => {
                     </FormGroup>
                     <FormGroup>
                         <Label className="label">Within:</Label>
-                        <Input className="input" type="number" name="distance" id="distance">
+                        <Input className="input" type="number" name="distance" id="distance" placeholder="50">
                         </Input> miles
                     </FormGroup>
                     <FormGroup>
@@ -116,7 +116,7 @@ const Settings = props => {
                 </FormGroup>
                 <FormGroup>
                     <Label check>
-                        <Input className="input" type="checkbox"/> Any 💚
+                        <Input className="input" type="checkbox" checked="checked"/> Any 💚
                     </Label>
                 </FormGroup>
             </div>
