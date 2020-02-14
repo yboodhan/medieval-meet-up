@@ -117,4 +117,10 @@
 
 .tag-about {
   display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+strong {
+  font-family: 'Fondamento', cursive;
+  color: #668300;
 }
