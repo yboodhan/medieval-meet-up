@@ -19,7 +19,8 @@
 
 .chat-container {
   background-color: lightgreen;
-  height: 50vh;
+  height: 80vh;
+  font-size: 25px;
 }
 
 .chat-input {
@@ -55,6 +56,7 @@
 } */
 
 .chat-button {
+  width: 9vw;
   color: rgba(0,0,0,0)
 }
 
@@ -68,8 +70,19 @@
 }
 
 .text-input {
-  width: 70vw;
-  margin-left: 15vw;
+  width: 78vw;
+  margin-left: 10vw;
+  border-radius: 12px;
+  height: 4vh;
+  font-size: 15px;
+}
+
+#user-chat {
+  text-align: right;
+}
+
+#response-chat {
+  text-align: left;
 }
 
 .profile-picture {
