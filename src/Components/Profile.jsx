@@ -9,17 +9,24 @@ const Profile = props => {
         <Container>
             <Row>
                 <Col sm="12" md={{ size: 6, offset: 3 }}>
-                    <ProfilePicture imageLink="https://placekitten.com/300/300"/>
+                    <ProfilePicture imageLink="https://vignette.wikia.nocookie.net/shrek/images/5/58/Un-wallpaper-del-drago-per-il-film-shrek-terzo-118322.jpg/revision/latest?cb=20160819000447"/>
                 </Col>
             </Row>
             <Row>
                 <Col sm="12" md={{ size: 6, offset: 3 }}>
-                    <h1 className="user-name">Kitten</h1>
+                    <h1 className="user-name">Dragon</h1>
                 </Col>
             </Row>
             <Row>
                 <Col sm={{ size: 10, offset: 1 }} md={{ size: 6, offset: 3 }}>
-                    <p className="about-me">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur adipisci doloribus at, sunt, unde est, incidunt cupiditate beatae similique odit natus distinctio hic possimus ex facilis! Esse neque vitae libero!</p>
+                    <div className="about-me">
+                        <p>Looking for a new mans that can handle all this 🔥🔥</p>
+                        <ul>
+                            <li>NO ASSES</li>
+                            <li>Treasure 💎</li>
+                            
+                        </ul>
+                    </div>
                 </Col>
             </Row>
             <Row>
