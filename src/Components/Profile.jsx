@@ -5,11 +5,12 @@ import ProfilePicture from './ProfilePicture';
 import MatchMsgButton from './MatchMsgButton';
 
 const Profile = props => {
+
     return (
         <Container>
             <Row>
                 <Col sm="12" md={{ size: 6, offset: 3 }}>
-                    <ProfilePicture imageLink="https://vignette.wikia.nocookie.net/shrek/images/5/58/Un-wallpaper-del-drago-per-il-film-shrek-terzo-118322.jpg/revision/latest?cb=20160819000447"/>
+                    <ProfilePicture imageLink="https://files.slack.com/files-pri/T0351JZQ0-FTZB36E7N/dragon_but_rly_pissed_at_donkey.png"/>
                 </Col>
             </Row>
             <Row>
@@ -24,7 +25,7 @@ const Profile = props => {
                         <ul>
                             <li>NO ASSES</li>
                             <li>Treasure 💎</li>
-                            
+
                         </ul>
                     </div>
                 </Col>

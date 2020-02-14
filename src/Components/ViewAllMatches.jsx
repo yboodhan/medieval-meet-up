@@ -80,7 +80,7 @@ let users = [{
 
 const ViewAllMatches = props => {
     let allMatches = users.map( (user) => {
-        return <ProfileTag  user={user}/>
+        return <ProfileTag key={user.id}  user={user}/>
     })
 
     return (
