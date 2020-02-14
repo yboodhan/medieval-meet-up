@@ -10,11 +10,12 @@
 }
 
 .chat-headerr {
-  background-color: lightblue;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Fondamento', cursive;
+  color: #B0C400
 }
 
 .chat-container {
