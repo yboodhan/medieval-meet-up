@@ -6,14 +6,15 @@
   justify-content: center;
   align-items: space-between;
   font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(82, 80, 80, 0.863);
 }
 
-.chat-header {
+.chat-headerr {
   background-color: lightblue;
   display: flex;
-  
-  /* display: flex;
-  justify-content: space-around; */
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Fondamento', cursive;
 }
 
 .chat-container {
@@ -22,8 +23,13 @@
 }
 
 .chat-input {
-  background-color: lightgray;
+  background-image: url("https://i.imgur.com/aOGRW0N.png");
+  background-size: contain;
+  width: 100vw;
   height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .chat-header p, .chat-container p, .chat-input p {
@@ -40,15 +46,32 @@
   border-radius: 50%;
   /* margin-top: em; */
   /* margin-bottom: 8vh; */
-  margin-left: 263px;
+  /* margin-left: 100px; */
 
   padding: 0;
 }
+/* .chat-back {
+  margin-right: 100px;
+} */
 
-
-.chat-title {
-  color: green;
+.chat-button {
+  color: rgba(0,0,0,0)
 }
+
+.chat-keyboard {
+  background-image: url("https://i.imgur.com/cTe85Nm.png");
+  background-size: contain;
+  height: 30vh;
+  width: 100vw;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+
+.text-input {
+  width: 70vw;
+  margin-left: 15vw;
+}
+
 .profile-picture {
   border-radius: 20%;
   margin-top: 3em;
@@ -60,6 +83,7 @@
   font-size: 2.5em;
   font-family: 'Fondamento', cursive;
   color: #668300;
+  font-weight: normal;
 }
 
 .about-me {
@@ -78,6 +102,7 @@
   font-family: 'Fondamento', cursive;
   color: white;
   background-color: #B0C400;
+  text-align: center;
 }
 
 .nav-bar {
@@ -135,4 +160,40 @@
 strong {
   font-family: 'Fondamento', cursive;
   color: #668300;
+}
+
+h1 {
+  font-family: 'Fondamento', cursive;
+  color: #668300;
+}
+
+.settings-page {
+  height: 80vh;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+.input {
+  border: 1px solid green;
+  font-size: 1em;
+}
+
+.label {
+  font-size: 1.5em;
+  margin-right: 1em;
+  font-family: 'Fondamento', cursive;
+}
+
+.preferences {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: flex-start;
+  margin: 0em 2em 2em 2em;
+  line-height: 3em;
+}
+
+.settings {
+  text-align: left;
+  margin: 2em;
 }

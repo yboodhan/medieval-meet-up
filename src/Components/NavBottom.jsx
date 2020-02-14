@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Container, Col, Row } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faCog, faHeart, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faCog, faHeart, faComment } from '@fortawesome/free-solid-svg-icons';
 
 const NavBottom = props => {
     return (
@@ -14,13 +13,13 @@ const NavBottom = props => {
                                 <a href="/"><FontAwesomeIcon color="#668300" size="2x" icon={faUser} /></a>
                             </div>
                             <div className="nav-button">
-                                <FontAwesomeIcon color="#668300" size="2x" icon={faHeart} />
+                                <a href="/matches"><FontAwesomeIcon color="#668300" size="2x" icon={faHeart} /></a>
                             </div>
                             <div className="nav-button">
-                                <FontAwesomeIcon color="#668300" size="2x" icon={faEnvelope} />
+                                <a href="/chat"><FontAwesomeIcon color="#668300" size="2x" icon={faComment} /></a>
                             </div>
                             <div className="nav-button">
-                                <FontAwesomeIcon color="#668300" size="2x" icon={faCog} />
+                                <a href="/settings"><FontAwesomeIcon color="#668300" size="2x" icon={faCog} /></a>
                             </div>
                         </div>
                     </Col>
