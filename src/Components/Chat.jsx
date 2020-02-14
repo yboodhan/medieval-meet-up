@@ -31,8 +31,8 @@ const Chat = props => {
     })
 
     let replyArr = [
-        "Reply 1",
-        "Reply 2",
+        "Ayyy, you back in the lair?",
+        "Im just playin",
         "Reply 3"
     ]
 
