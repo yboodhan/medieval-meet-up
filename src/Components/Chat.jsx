@@ -35,18 +35,17 @@ const Chat = props => {
 
     let replyArr = [
         "Ayyy, you back in the lair?",
-        "Im just playin",
-        "haha",
+        "Im just playin, haha",
         "unless..? 👀"
     ]
 
-    const reply = () => {
-        chatHistory.pop()
-        chatHistory.push(replyArr[0])
-        hist = chatHistory
-        hist.push(replyArr[0])
-        setChatHistory(hist)
-    }
+    // const reply = () => {
+    //     chatHistory.pop()
+    //     chatHistory.push(replyArr[0])
+    //     hist = chatHistory
+    //     hist.push(replyArr[0])
+    //     setChatHistory(hist)
+    // }
 
     const addReply = () => {
         if (chatHistory.length === 1) {
@@ -66,13 +65,18 @@ const Chat = props => {
             // }, 1100)
         }
         else if (chatHistory.length === 3) {
+            chatHistory.push("...")
             setTimeout(() => {
+                chatHistory.pop()
                 chatHistory.push(replyArr[1])
-            }, (2000))
-            // chatHistory.push(replyArr[1])
+            }, (1000))
         }
         else if (chatHistory.length === 5) {
-            chatHistory.push(replyArr[2])
+            chatHistory.push("...")
+            setTimeout(() => {
+                chatHistory.pop()
+                chatHistory.push(replyArr[2])
+            }, (1000))
         }
     }
 
