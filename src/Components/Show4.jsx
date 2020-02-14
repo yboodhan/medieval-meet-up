@@ -3,12 +3,10 @@ import MatchProfile from './MatchProfile';
 
 let user = {
     id: 4,
-    name: 'Pinocchio',
-    interest: 'an honest, real boy',
-    about: ['REAL EYES, REALIZE, REAL LIES'],
-    matches: 4,
-    messages: 20,
-    picture: ['https://fiverr-res.cloudinary.com/t_main1,q_auto,f_auto/gigs/129052500/original/e978e4ecdb56607bcc8797591deed91732525da8.jpg']
+    name: 'Big Bad Wolf',
+    interest: 'Thighs, legs, arms, any meat really',
+    about: 'Like hairy guys? Looking for a Big Bad boy to huff and puff and blow your mind? Not all the guys are wolves, but this one is.',
+    picture: ['https://i.pinimg.com/originals/1f/c0/58/1fc0584cfa9234edd54bce17f430c37b.jpg']
 }
 
 const Show4 = props => {

@@ -5,7 +5,7 @@ let user = {
     id: 5,
     name: 'Donkey',
     interest: 'Ass',
-    about: ['New sir on the block, looking for a sweet maiden'],
+    about: ['Back on the menu, looking for a sweet maiden'],
     matches: 69,
     messages: 420,
     picture: ['https://data.whicdn.com/images/130896373/original.jpg']
